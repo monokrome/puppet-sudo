@@ -1,0 +1,4 @@
+# I don't like using NOPASSWD, but no other option exists - since
+# I can't securely sync passwords between machines via puppet.
+%admin ALL=(ALL) NOPASSWD:ALL
+
